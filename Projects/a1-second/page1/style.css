@@ -1,0 +1,140 @@
+.frame {
+    background-color: #eab6efa8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .div {
+    background-color: #eab6efa8;
+    width: 1512px;
+    height: 2407px;
+    position: relative;
+  }
+  
+  .frame .group {
+    position: absolute;
+    width: 650px;
+    height: 783px;
+    top: 1367px;
+    left: 152px;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    width: 648px;
+    height: 783px;
+  }
+  
+  .frame .rectangle {
+    width: 408px;
+    height: 675px;
+    top: 54px;
+    left: 120px;
+    background-color: #000000;
+    position: absolute;
+    transform: rotate(-24.08deg);
+  }
+  
+  .frame .rectangle-2 {
+    width: 355px;
+    height: 556px;
+    top: 81px;
+    left: 133px;
+    background-color: #ffffff;
+    position: absolute;
+    transform: rotate(-24.08deg);
+  }
+  
+  .frame .rectangle-3 {
+    width: 317px;
+    height: 424px;
+    top: 159px;
+    left: 159px;
+    background-color: #cd4697;
+    position: absolute;
+    transform: rotate(-24.08deg);
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    width: 209px;
+    top: 149px;
+    left: 65px;
+    transform: rotate(-21.88deg);
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .ellipse {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 621px;
+    left: 409px;
+    background-color: #494242;
+    border-radius: 32.14px;
+  }
+  
+  .frame .p {
+    position: absolute;
+    width: 557px;
+    top: 1604px;
+    left: 886px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-2 {
+    position: absolute;
+    width: 1096px;
+    top: 223px;
+    left: 162px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-3 {
+    position: absolute;
+    width: 467px;
+    top: 509px;
+    left: 476px;
+    font-family: "Helvetica-LightOblique", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+
+  .frame .text-wrapper-4 {
+    position: absolute;
+    width: 453px;
+    /* top: 1604px; */
+    top: 1850px;
+    left: 886px;
+    font-family: "Helvetica-LightOblique", Helvetica;
+    font-weight: 300;
+    color: #cd2222;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  

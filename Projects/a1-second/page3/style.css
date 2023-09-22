@@ -1,0 +1,134 @@
+.frame {
+    background-color: #eab6efa8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .div {
+    background-color: #eab6efa8;
+    overflow: hidden;
+    width: 1512px;
+    height: 982px;
+    position: relative;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    width: 402px;
+    top: 510px;
+    left: 1044px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .overlap {
+    position: absolute;
+    width: 859px;
+    height: 1401px;
+    top: -190px;
+    left: 59px;
+    border-radius: 429.5px/700.5px;
+  }
+  
+  .frame .group {
+    position: absolute;
+    width: 859px;
+    height: 1401px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 429.5px/700.5px;
+  }
+  
+  .frame .ellipse {
+    position: relative;
+    width: 540px;
+    height: 882px;
+    top: 333px;
+    left: 157px;
+    background-color: #68e3ff;
+    border-radius: 270px/441px;
+  }
+  
+  .frame .overlap-wrapper {
+    position: absolute;
+    width: 130px;
+    height: 157px;
+    top: 757px;
+    left: 370px;
+    transform: rotate(-104.62deg);
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    height: 157px;
+  }
+  
+  .frame .overlap-group-wrapper {
+    position: absolute;
+    width: 130px;
+    height: 157px;
+    top: 0;
+    left: 0;
+  }
+  
+  .frame .rectangle {
+    width: 82px;
+    height: 135px;
+    top: 11px;
+    left: 24px;
+    background-color: #000000;
+    position: absolute;
+    transform: rotate(-24.08deg);
+  }
+  
+  .frame .rectangle-2 {
+    width: 71px;
+    height: 112px;
+    top: 16px;
+    left: 27px;
+    background-color: #ffffff;
+    position: absolute;
+    transform: rotate(-24.08deg);
+  }
+  
+  .frame .rectangle-3 {
+    width: 64px;
+    height: 85px;
+    top: 32px;
+    left: 32px;
+    background-color: #000000;
+    position: absolute;
+    transform: rotate(-24.08deg);
+  }
+  
+  .frame .ellipse-2 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 124px;
+    left: 82px;
+    background-color: #494242;
+    border-radius: 6.44px;
+  }
+  
+
+  .frame .text-wrapper-2 {
+    position: absolute;
+    width: 453px;
+    /* top: 1604px; */
+    top: 710px;
+    left: 1044px;
+    font-family: "Helvetica-LightOblique", Helvetica;
+    font-weight: 300;
+    color: #cd2222;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }

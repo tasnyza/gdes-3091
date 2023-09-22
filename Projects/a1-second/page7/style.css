@@ -1,0 +1,105 @@
+.frame {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .div {
+    background-color: rgba(255, 255, 255, 1);
+    background: linear-gradient(180deg, rgba(240.23, 94.83, 252.88, 0.66) 0%, rgba(201.88, 79.91, 79.91, 0.29) 100%);
+    width: 1512px;
+    height: 1323px;
+    position: relative;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    width: 402px;
+    top: 832px;
+    left: 819px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .group {
+    top: 217px;
+    left: 328px;
+    transform: rotate(20.4deg);
+    position: absolute;
+    width: 464px;
+    height: 561px;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    height: 561px;
+  }
+  
+  .frame .overlap-group-wrapper {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 464px;
+    height: 561px;
+  }
+  
+  .frame .rectangle {
+    width: 292px;
+    height: 483px;
+    top: 39px;
+    left: 86px;
+    background-color: #000000;
+    position: absolute;
+    transform: rotate(-24.08deg);
+  }
+  
+  .frame .rectangle-2 {
+    width: 254px;
+    height: 398px;
+    top: 58px;
+    left: 95px;
+    background-color: #ffffff;
+    position: absolute;
+    transform: rotate(-24.08deg);
+  }
+  
+  .frame .rectangle-3 {
+    width: 227px;
+    height: 303px;
+    top: 114px;
+    left: 114px;
+    background: linear-gradient(180deg, rgb(218.88, 93.02, 93.02) 0%, rgba(148.4, 93.02, 218.88, 0.43) 100%);
+    position: absolute;
+    transform: rotate(-24.08deg);
+  }
+  
+  .frame .ellipse {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 445px;
+    left: 293px;
+    background-color: #494242;
+    border-radius: 23.01px;
+  }
+
+  .frame .text-wrapper-2 {
+    position: absolute;
+    width: 453px;
+    /* top: 1604px; */
+    top: 1170px;
+    left: 819px;
+    font-family: "Helvetica-LightOblique", Helvetica;
+    font-weight: 300;
+    color: #cd2222;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  

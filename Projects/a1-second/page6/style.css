@@ -1,0 +1,156 @@
+.frame {
+    background-color: #eab6efa8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .div {
+    background-color: #eab6efa8;
+    width: 1512px;
+    height: 1323px;
+    position: relative;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    width: 402px;
+    top: 858px;
+    left: 965px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .overlap {
+    position: absolute;
+    width: 912px;
+    height: 446px;
+    top: 305px;
+    left: 223px;
+  }
+  
+  .frame .group {
+    position: absolute;
+    width: 912px;
+    height: 222px;
+    top: 224px;
+    left: 0;
+    background-color: #000000;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    width: 486px;
+    height: 125px;
+    top: 47px;
+    left: 209px;
+    background-color: #847b7b;
+    border-radius: 41px;
+  }
+  
+  .frame .ellipse {
+    top: 12px;
+    left: 48px;
+    position: absolute;
+    width: 42px;
+    height: 59px;
+    background-color: #ffffff;
+    border-radius: 21px/29.5px;
+  }
+  
+  .frame .ellipse-2 {
+    top: 12px;
+    left: 110px;
+    position: absolute;
+    width: 42px;
+    height: 59px;
+    background-color: #ffffff;
+    border-radius: 21px/29.5px;
+  }
+  
+  .frame .ellipse-3 {
+    top: 25px;
+    left: 172px;
+    position: absolute;
+    width: 42px;
+    height: 59px;
+    background-color: #ffffff;
+    border-radius: 21px/29.5px;
+  }
+  
+  .frame .ellipse-4 {
+    top: 38px;
+    left: 234px;
+    position: absolute;
+    width: 42px;
+    height: 59px;
+    background-color: #ffffff;
+    border-radius: 21px/29.5px;
+  }
+  
+  .frame .ellipse-5 {
+    top: 25px;
+    left: 341px;
+    position: absolute;
+    width: 42px;
+    height: 59px;
+    background-color: #ffffff;
+    border-radius: 21px/29.5px;
+  }
+  
+  .frame .ellipse-6 {
+    top: 63px;
+    left: 288px;
+    position: absolute;
+    width: 42px;
+    height: 59px;
+    background-color: #ffffff;
+    border-radius: 21px/29.5px;
+  }
+  
+  .frame .ellipse-7 {
+    top: 33px;
+    left: 403px;
+    position: absolute;
+    width: 42px;
+    height: 59px;
+    background-color: #ffffff;
+    border-radius: 21px/29.5px;
+  }
+  
+  .frame .rectangle {
+    position: absolute;
+    width: 151px;
+    height: 290px;
+    top: 18px;
+    left: 147px;
+    border-radius: 54px;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-color: #ffffff;
+    transform: rotate(-32.43deg);
+  }
+  
+
+  .frame .text-wrapper-2 {
+    position: absolute;
+    width: 453px;
+    /* top: 1604px; */
+    top: 1150px;
+    left: 965px;
+    font-family: "Helvetica-LightOblique", Helvetica;
+    font-weight: 300;
+    color: #cd2222;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
