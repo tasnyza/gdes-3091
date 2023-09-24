@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+/* p {
+    font-family: "Times New Roman", Times, serif;
+} */
+
+p {
+    font-family: "Lucida Console", "Courier New", monospace; 
+
+}
+
+/* Questions:
+1. Are famous fonts like arial, times new roman available already in vscode because I can't find them in adobe/google fonts? 
+2. Does fallback font stacking require giving a font to the paragraph or seperate fonts added to each word? (I did both in case)
+*/
+
+
+.rotate {
+    font-size: 50px;
+    font-family: 'Fuggles', cursive, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    transition: font-size 250ms ease;
+
+}
+
+.rotate:hover {
+    transform: rotate(90deg);    
+/* transform: rotate(90deg);} */
+}
+
+.larger {
+    /* border: 1px solid black; */
+    font-size: 72px; 
+    font-family: "shrunken-head-bb", sans-serif, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: font-size 250ms ease;
+    }
+
+/* .lets-go-lobster {
+    font-family: 'Fuggles', cursive;
+    font-size: 72px;
+
+} */
+
+.larger:hover {
+    font-size: 200px;
+    
+
+} 
+
+@font-face {
+    font-family: 'Bespoke-R7geCJWQ4A';
+    src: url('Bespoke-R7geCJWQ4A.eot');
+    src: url('Bespoke-R7geCJWQ4A.eot?#iefix') format('embedded-opentype'),
+       url('Bespoke-R7geCJWQ4A.woff') format('woff'),
+       url('Bespoke-R7geCJWQ4A.ttf') format('truetype'),
+       url('Bespoke-R7geCJWQ4A.svg#Bespoke-R7geCJWQ4A') format('svg');
+  }
+
+
+.color {
+    font-size: 72px;
+    font-family: Bespoke, sans-serif, Arial, sans-serif;
+}
+
+.color:hover {
+    color:blue;
+    /* font-size: 1.2em;  */
+    /* transition: all 0.3s */
+    /* font-size: 3.5em;
+    transition: font-size 0.3s; */
+}
+  
+
