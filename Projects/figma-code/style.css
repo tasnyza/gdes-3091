@@ -144,7 +144,7 @@ p {
 } */
 
 footer {
-    display: flex;
+    display: grid;
     width: 700px;
     height: 129px; 
     background: white;
@@ -172,7 +172,7 @@ h4 {
     /* new flex attempt */
     /* display: flex;
     couldn't figure it out */
-    /* couldn't figure out how to set customised width for columns*
+    /* couldn't figure out how to set customised width for columns*/
 
 }
 

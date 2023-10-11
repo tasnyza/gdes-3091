@@ -1,0 +1,41 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Helvetica-Bold", sans-serif;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/645e1dd106b0aefeb3832465/fonts/helvetica.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica-Light", sans-serif;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c4a8fa3ba3d79000962263a/Helvetica Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gill Sans-Bold", sans-serif;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/602fa16b7a58fd2b6ba42004/fonts/gill-sans-bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Helvetica-Regular", sans-serif;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/636151e34599cf6ddeea4f93/fonts/helvetica.ttf")
+    format("truetype");
+}
