@@ -1,0 +1,27 @@
+/* idea 1 - scrapped
+
+* {
+    padding: 0;
+    margin: 0; /* no more side space */
+    /* box-sizing: border-box; despite padding added to any element, the box size will not chance */
+    /* align: center; */
+    /* width: 50%; */
+/* }
+
+
+
+.body {
+    width: 160px;
+    height: 70px;
+    background: #a84909;
+    border-radius: 50%;
+} */ 
+
+
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* prevents horizontal and vertical scroll bars */
+}
+
