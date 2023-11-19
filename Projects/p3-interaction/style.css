@@ -18,10 +18,13 @@
 } */ 
 
 
-body {
+ body {
     background: black;
     margin: 0;
     padding: 0;
     overflow: hidden; /* prevents horizontal and vertical scroll bars */
-}
+ }
 
+
+/* div {
+    text-align: center; */
