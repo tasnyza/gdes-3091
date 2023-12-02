@@ -58,17 +58,17 @@ function draw() {
   
   if (windowWidth >= 1200) {
     firstScene.draw();
-  } else if (windowWidth >= 1000) {
+  } else if (windowWidth >= 1100) {
     flowerScene.draw();
     // fill('#ADD8E6');  // Green color
     // rect(0, height - height * 0.5, width, height * 0.5);
     // fill('#467827');  // Green color
     // rect(0, height - height * 0.35, width, height * 0.5);  
-  } else if (windowWidth >= 800) {
+  } else if (windowWidth >= 900) {
     catScene.draw();
-  } else if (windowWidth >= 700) {
+  } else if (windowWidth >= 800) {
     trashScene.draw();
-  } else if (windowWidth <= 700) {
+  } else if (windowWidth <= 800) {
     secondScene.draw()
   }
 }
