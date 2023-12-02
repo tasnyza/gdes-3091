@@ -66,9 +66,9 @@ function draw() {
     // rect(0, height - height * 0.35, width, height * 0.5);  
   } else if (windowWidth >= 800) {
     catScene.draw();
-  } else if (windowWidth >= 600) {
+  } else if (windowWidth >= 700) {
     trashScene.draw();
-  } else if (windowWidth <= 600) {
+  } else if (windowWidth <= 700) {
     secondScene.draw()
   }
 }
