@@ -1,19 +1,39 @@
 // jquery shorthand for making sure document is fully loaded
+// $(function () {
+//     // Access Art Institute of Chicago API
+//     fetch("https://api.artic.edu/api/v1/artworks")
+//         .then(function (response) {
+//             return response.json();
+//         })
+//         .then(function (data) {
+//             console.log(data.data);
+//             console.log(data.data[0].color.h);
+//             console.log(data.data[0].color.l);
+//             console.log(data.data[0].color.s);
+//             $("main").append(`<p>${data.data[0].color.h}<p>`)
+//             $("main").append(`<p>${data.data[0].color.l}<p>`)
+//             $("main").append(`<p>${data.data[0].color.s}<p>`)
+//         })
+//         .catch(function (error) {
+//             $("main").html("There's been an error!");
+//         })
+// })
+
 $(function () {
-    // Access Art Institute of Chicago API
-    fetch("https://api.artic.edu/api/v1/artworks")
+    // place kitten
+    fetch("https://placekitten.com/")
         .then(function (response) {
             return response.json();
         })
-        .then(function (data) {
-            console.log(data.data);
-            console.log(data.data[0].color.h);
-            console.log(data.data[0].color.l);
-            console.log(data.data[0].color.s);
-            $("main").append(`<p>${data.data[0].color.h}<p>`)
-            $("main").append(`<p>${data.data[0].color.l}<p>`)
-            $("main").append(`<p>${data.data[0].color.s}<p>`)
-        })
+        // .then(function (data) {
+        //     console.log(data.data);
+        //     console.log(data.data[0].color.h);
+        //     console.log(data.data[0].color.l);
+        //     console.log(data.data[0].color.s);
+        //     $("main").append(`<p>${data.data[0].color.h}<p>`)
+        //     $("main").append(`<p>${data.data[0].color.l}<p>`)
+        //     $("main").append(`<p>${data.data[0].color.s}<p>`)
+        // })
         .catch(function (error) {
             $("main").html("There's been an error!");
         })
