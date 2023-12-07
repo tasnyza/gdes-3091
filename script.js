@@ -29,7 +29,9 @@ const htmlData = insertHTML();
 document.getElementById('VisualNovelEngine').insertAdjacentHTML("beforebegin", htmlData);
 
 /* **SUPER IMPORTANT**  PUT THE URL OF THE JSON FILE WHERE YOU INSERTED ALL YOUR DATA HERE !! */
-const vnData = '/Users/tasnimahahmed/gdes/p4-attempt3/manifest.json';
+const vnData = '/Documents/GitHub/gdes-3091/manifest.json';
+
+
 
 // console.log(vnData);
 
@@ -61,7 +63,7 @@ async function grabData() {
 	// Load the data
 	
 	/* Fetches the data from the server */
-	const resp = await fetch(vnData)
+	const resp = await fetch(vnData);
 
 	/* Putting the data into an array */
 	json = await resp.json();
