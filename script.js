@@ -29,7 +29,39 @@ const htmlData = insertHTML();
 document.getElementById('VisualNovelEngine').insertAdjacentHTML("beforebegin", htmlData);
 
 /* **SUPER IMPORTANT**  PUT THE URL OF THE JSON FILE WHERE YOU INSERTED ALL YOUR DATA HERE !! */
-const vnData = '/Documents/GitHub/gdes-3091/manifest.json';
+// const vnData = `
+//     {
+//         "Characters": {
+//             "Florian": {
+//                 "Happy": "gdes/p4-attempt3/florian_skyblue_smile.png"
+//             }
+//         },
+
+//         "Scene1": {
+//             "Background": "/gdes/p4-attempt3/DIEMENG_1920_DAY_GARDEN.jpg",
+//             "PAGES": {
+//                 "Page0": {
+//                     "Character": "Narrator",
+//                     "PageText": "Welcome to the dating show! Who are you going to choose to be your date?"
+//                 },
+//                 "Page1": {
+//                     "Character": "Florian",
+//                     "Sprite": "Happy",
+//                     "PageText": " ",
+//                     "Options": {
+//                         "Projects": "Page2",
+//                         "Exercises": "Page3",
+//                         "Readings": "Page4",
+//                         "Resources": "Page5"
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// `;
+
+const vnData= '/Documents/GitHub/gdes-3091/VNData.json';
+
 
 
 
