@@ -20,6 +20,7 @@ body{
 	font-size:22px;
 	color: var(--text-color);
 	background-image: url('DIEMENG_1920_DAY_GARDEN.jpg');
+	display: flex;
 }
 
 .mainbox {
@@ -71,14 +72,14 @@ body{
 
 
 
-.optionsbox{
+/* .optionsbox{
 	color:blue;
 }
 
 .optionsbox > div:hover{
 	color:red;
 	cursor:pointer;
-}
+} */
 
 .spritebox{
 	
@@ -214,13 +215,28 @@ body{
 
 
 .e2 {
-	top:-50px;
+	top:-100px;
 	width: 210px;
+	left: -20px;
 	/* width: 100px; */
 }
 
+.e2:hover {
+	width: 400px;
+	transition: 0.3s ease;
+}
+
+
+
 .e3 {
 	top: -100px;
+	left: 150px;
+	width: 250px;
+}
+
+.e3:hover {
+	width: 500px;
+	transition: 0.3s ease;
 }
 
 .e9 {
@@ -228,9 +244,19 @@ body{
 	width: 220px;
 }
 
+.e9:hover {
+	width: 400px;
+	transition: 0.3s ease;
+}
+
 .e8 {
 	right: 160px;
 	width: 200px;
+}
+
+.e8:hover {
+	width: 400px;
+	transition: 0.3s ease;
 }
 
 .e7 {
@@ -239,16 +265,23 @@ body{
 	top: 150px;
 }
 
+.e7:hover {
+	width: 450px;
+	transition: 0.3s ease;
+}
+
 .e6 {
 	top: 100px;
 	right: 480px;
 	width: 280px;
 }
 
-.e3 {
-	left: 150px;
-	width: 280px;
+.e6:hover {
+	width: 500px;
+	transition: 0.3s ease;
 }
+
+
 
 .e4 {
 	left: 350px;
@@ -256,8 +289,67 @@ body{
 	top: -50px; 
 }
 
+.e4:hover {
+	width: 400px;
+	transition: 0.3s ease;
+}
+
 .e5 {
 	left: 520px;
 	width: 250px;
 	top: -50px;
+}
+
+.e5:hover {
+	width: 400px;
+	transition: 0.3s ease;
+}
+
+
+
+
+
+.rectangle {
+	height: 100px;
+	width: 200px;
+	background-color: black;
+	position: absolute;
+	right: 80px;
+	top: 50px;
+  }
+
+  .slider-container {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.whitebox {  
+	/* https://stackoverflow.com/questions/17015872/how-can-i-make-a-white-rectangle-extend-all-the-way-down-on-top-of-another-back */
+	/* height: 200px; */
+	background-color: white;
+	margin: auto;
+	width: 50em;
+	padding: 50px;
+}
+
+b {
+	font-weight: bold;
 }

@@ -151,7 +151,9 @@ function checkKey(e) {
 	if (e.keyCode == "37") {
 		// left arrow
 		console.log("Left arrow pressed");
-		showHideElement("div0", "div1");
+		showHideElement("div0", currentActive);
+
+
 	} else if (e.keyCode == "39") {
 		// right arrow
 		console.log("Right arrow pressed");
@@ -163,6 +165,26 @@ function showHideElement(idToShow, idToHide) {
 	let showElement = document.getElementById(idToShow);
 	let hideElement = document.getElementById(idToHide);
 
+	currentActive = idToShow;
+
 	showElement.classList.remove("hide");
 	hideElement.classList.add("hide");
+}
+
+
+const images = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg", "image6.jpg", "image7.jpg"];
+let currentIndex = 0;
+
+function changeImage(direction) {
+    currentIndex += direction;
+
+    // Handle wrap-around
+    if (currentIndex < 0) {
+        currentIndex = images.length - 1;
+    } else if (currentIndex >= images.length) {
+        currentIndex = 0;
+    }
+
+    const sliderImage = document.getElementById("sliderImage");
+    sliderImage.src = images[currentIndex];
 }
