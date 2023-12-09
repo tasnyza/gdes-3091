@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" async id="VisualNovelEngine"></script>
+		<script
+			src="https://code.jquery.com/jquery-3.7.1.min.js"
+			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			crossorigin="anonymous"></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<body>
+			<!-- idea from: https://app.qoom.io/tutorials/vnengine/guide.md -->
+
+			<div id="div0">
+				<div class="mainbox">
+					<div class="spritebox">
+						<img src="female-character-fixed.png" />
+					</div>
+					<div class="namebox">
+						<span>Index</span>
+					</div>
+					<div class="textbox">
+						<p>
+							Welcome to the dating show hosted by Tasnimah! Press your arrow
+							keys to see what's next.
+						</p>
+
+						<!-- <div id="optionsbox"></div> -->
+					</div>
+				</div>
+			</div>
+
+			<div id="div1" class="hide">
+				<div class="mainbox">
+					<div class="spritebox leftalign florian">
+						<img src="florian_skyblue_smile.png" />
+					</div>
+
+					<div class="spritebox rightalign butler">
+						<img src="nathaniel_butler_neutraltalk.png" />
+					</div>
+
+					<div class="spritebox dennis">
+						<img src="dennis_blue_happylaugh.png" />
+					</div>
+
+					<div class="spritebox blonde">
+						<img src="adam_brownvest_happylaugh.png" />
+					</div>
+					<div class="namebox">
+						<span>Index</span>
+					</div>
+					<div class="textbox">
+						<p>
+							Here are your four options! Who will you pick? From left to right,
+							their names are
+							<span
+								style="color: rgb(241, 144, 160)"
+								onclick="showHideElement('div2','div1')"
+								>Projects</span
+							>, <span style="color: rgb(43, 108, 178)"
+								onclick="showHideElement('div3','div1')"
+								>Exercises</span>,
+								<span style="color: brown"
+								onclick="showHideElement('div4','div1')"
+								>Readings</span> and
+								<span style="color: rgb(208, 172, 66)"
+								onclick="showHideElement('div5','div1')"
+								>Resources</span>.
+						</p>
+
+						<!-- <div class="optionsbox"></div> -->
+						<!-- <button onclick="window.location.href='second_page.html'">Go to Second Page</button> -->
+
+						<!-- </div id='background'></div> -->
+					</div>
+				</div>
+			</div>
+
+			<div id="div2" class="hide">
+				<div class="mainbox">
+					<div class="spritebox pinkdress">
+						<a href="Projects/a1-second/page1/index.html">
+							<img src="pinkdress.png" />
+						</a>
+					</div>
+
+					<div class="spritebox bluedress">
+						<a href="Projects/poster/index.html">
+							<img src="bluedress.png" />
+						</a>
+					</div>
+
+					<div class="spritebox reddress">
+						<a href="Projects/p3-interaction/index.html">
+							<img src="reddress.png" />
+						</a>
+					</div>
+
+					<div class="namebox">
+						<span>Index</span>
+					</div>
+					<div class="textbox">
+						<p>Choose your dress for the first date!</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="div3" class="hide">
+				<div class="mainbox">
+					<div class="spritebox e2">
+						<a href="Projects/Paintings-recreated/index.html">
+							<img src="e2.png" />
+						</a>
+					</div>
+
+					<div class="spritebox e3">
+						<img src="e3.png" />
+					</div>
+
+					<div class="spritebox e4">
+						<img src="e4.png" />
+					</div>
+
+					<div class="spritebox e5">
+						<img src="e5.png" />
+					</div>
+
+					<div class="spritebox e6">
+						<img src="e6.png" />
+					</div>
+
+					<div class="spritebox e7">
+						<img src="e7.png" />
+					</div>
+
+					<div class="spritebox e8">
+						<img src="e8.png" />
+					</div>
+
+					<div class="spritebox e9">
+						<img src="e9.png" />
+					</div>
+
+					<div class="namebox">
+						<span>Index</span>
+					</div>
+					<div class="textbox">
+						<p>You should get him a gift for your first date, what are you going to pick?</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="div4" class="hide">
+				<div class="mainbox">
+
+					<div class="spritebox">
+						<img src="dennis_blue_happylaugh.png" />
+					</div>
+
+
+					<div class="namebox">
+						<span>Readings</span>
+					</div>
+					<div class="textbox">
+						<p>Thanks for picking me! So umm, do you want to talk about 
+							<span
+							style="color: rgb(238, 62, 91)"
+							onclick="showHideElement('div6','div2')">
+							R1: A Handmade Web,
+							</span> 
+							<span style="color: rgb(162, 49, 175)"
+							onclick="showHideElement('div7','div2')">
+							R2: What Screens Want,
+							</span> 
+							<span style="color: rgb(47, 72, 162)"
+							onclick="showHideElement('div8','div2')">
+							R3: Interface and Interpretation,
+							</span> 
+							<span style="color: rgb(43, 122, 38)"
+							onclick="showHideElement('div9','div2')">
+							R4: Database as Symbolic Form
+							</span> or 
+							<span style="color: rgb(140, 37, 64)"
+							onclick="showHideElement('div9','div2')">
+							R5: My website is a shifting house next to a river of knowledge
+							</span>
+							?</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- <p class="background" style="background-image: url('DIEMENG_1920_DAY_GARDEN.jpg');"> -->
+		</body>
+	</body>
+</html>

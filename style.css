@@ -1,0 +1,263 @@
+/* FEEL FREE TO GO TO fonts.google.com TO CHOOSE YOUR OWN FONT */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+:root {
+  --text-color: #000000;
+  --text-background-color: #ffffff;
+  --border-color: #000000;
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+
+/* https://www.w3schools.com/html/html_images_background.asp - learning to place image as background */
+
+body{
+	/*Basic Font Styling*/
+	font-family: 'Nunito', sans-serif;
+	font-size:22px;
+	color: var(--text-color);
+	background-image: url('DIEMENG_1920_DAY_GARDEN.jpg');
+}
+
+.mainbox {
+	/* Size of Main Container */
+	width: 90vmin;
+	height: 60vmin;
+  
+	/* Places container in the center of the screen */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  
+	/* Sets selected background to cover the whole main container */
+	background-size: 100% 100%; /* Change this line */
+	
+	/* Sets a border */
+	border: 0.125vmin solid var(--border-color);
+  }
+
+
+
+
+.textbox {
+	
+	/*Sets a border*/
+	border: 0.125vmin solid var(--border-color);
+	
+	/*Sets a background color*/
+	background: var(--text-background-color);
+	
+	/*Sets size and padding*/
+	width: 95%;
+	height: 20%;
+	padding: 0.5rem;
+	
+	/*Makes text scrollable*/
+	overflow: auto;
+	word-break: break-word;
+	
+	/*Positioning in container*/
+	margin: auto;
+	position: absolute;
+	bottom: 2%;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+
+
+
+.optionsbox{
+	color:blue;
+}
+
+.optionsbox > div:hover{
+	color:red;
+	cursor:pointer;
+}
+
+.spritebox{
+	
+	/*Sets size*/
+	max-width: 45%;
+	
+	/*Positioning in container*/
+	z-index: -1;
+	position: absolute;
+	bottom: 20%; 
+}
+
+
+.rightalign{
+	/*Right alignment class for the sprite*/
+	right: -7%;
+	bottom:-5%;
+}
+
+.leftalign{
+	/*Left alignment class for the sprite*/
+	left: 5%;
+}
+
+.spritebox img{
+	
+	/*Ensures that image doesn't exceed box size*/
+	max-width:100%;
+}
+
+.namebox{
+	
+	/*Sets background color, padding, and border*/
+	background: var(--text-background-color);
+    padding: 0.5rem;
+    border: 0.125vmin solid var(--border-color);
+	
+	/*Positions it in the container*/
+	position: absolute;
+    bottom: 26.5%;
+	left: 1.5%;
+}
+
+
+/* CSS styles for the animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animation-container {
+    animation: fadeIn 2s ease-in-out;
+}
+
+#div0,
+#div1 {
+    /* display: block; */
+    transition: opacity 0.5s ease-in-out; /* Add transition for fade effect */
+}
+
+#typewriter-div1 {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid orange; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	animation: 
+	  typing 3.5s steps(40, end),
+	  blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: orange; }
+  }
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.butler {
+	top: 80px;
+	left: 320px;
+	height: 300px;
+	width: 400px;
+}
+
+.dennis {
+	left: 200px;
+}
+
+.blonde {
+	left: -20px;
+	width: 60%;
+}
+
+.florian {
+	left: 100px;
+}
+
+.hide {
+	display: none;
+}
+
+.bluedress {
+	left: 150px;
+	width: 500px;
+}
+
+.pinkdress {
+	left: 50px;
+	width: 500px;
+}
+
+.reddress {
+	left: 220px;
+	width: 500px;
+}
+
+
+
+.e2 {
+	top:-50px;
+	width: 210px;
+	/* width: 100px; */
+}
+
+.e3 {
+	top: -100px;
+}
+
+.e9 {
+	right: 20px;
+	width: 220px;
+}
+
+.e8 {
+	right: 160px;
+	width: 200px;
+}
+
+.e7 {
+	right: 310px;
+	width: 250px;
+	top: 150px;
+}
+
+.e6 {
+	top: 100px;
+	right: 480px;
+	width: 280px;
+}
+
+.e3 {
+	left: 150px;
+	width: 280px;
+}
+
+.e4 {
+	left: 350px;
+	width: 200px;
+	top: -50px; 
+}
+
+.e5 {
+	left: 520px;
+	width: 250px;
+	top: -50px;
+}
