@@ -20,7 +20,7 @@ body{
 	font-size:22px;
 	color: var(--text-color);
 	background-image: url('DIEMENG_1920_DAY_GARDEN.jpg');
-	display: flex;
+	/* display: flex; */
 }
 
 .mainbox {
@@ -175,22 +175,22 @@ body{
 
 .butler {
 	top: 80px;
-	left: 320px;
+	left: 450px;
 	height: 300px;
 	width: 400px;
 }
 
 .dennis {
-	left: 200px;
+	left: 300px;
 }
 
 .blonde {
-	left: -20px;
+	left: -50px;
 	width: 60%;
 }
 
 .florian {
-	left: 100px;
+	left: 150px;
 }
 
 .hide {
@@ -198,8 +198,8 @@ body{
 }
 
 .bluedress {
-	left: 150px;
-	width: 500px;
+	left: 125px;
+	width: 100%;
 }
 
 .pinkdress {
@@ -212,96 +212,100 @@ body{
 	width: 500px;
 }
 
+.pinkdress:hover {
+	width: 700px;
+}
 
 
-.e2 {
+
+/* .e2 {
 	top:-100px;
 	width: 210px;
 	left: -20px;
-	/* width: 100px; */
-}
+
+} */
 
 .e2:hover {
-	width: 400px;
+	width: 200px;
 	transition: 0.3s ease;
 }
 
 
 
-.e3 {
+/* .e3 {
 	top: -100px;
 	left: 150px;
 	width: 250px;
-}
+} */
 
 .e3:hover {
-	width: 500px;
+	width: 200px;
 	transition: 0.3s ease;
 }
 
-.e9 {
+/* .e9 {
 	right: 20px;
 	width: 220px;
-}
+} */
 
 .e9:hover {
-	width: 400px;
+	width: 200px;
 	transition: 0.3s ease;
 }
 
-.e8 {
+/* .e8 {
 	right: 160px;
 	width: 200px;
-}
+} */
 
 .e8:hover {
-	width: 400px;
+	width: 200px;
 	transition: 0.3s ease;
 }
 
-.e7 {
+/* .e7 {
 	right: 310px;
 	width: 250px;
 	top: 150px;
-}
+} */
 
 .e7:hover {
-	width: 450px;
+	width: 200px;
 	transition: 0.3s ease;
 }
 
-.e6 {
+/* .e6 {
 	top: 100px;
 	right: 480px;
 	width: 280px;
-}
+} */
 
 .e6:hover {
-	width: 500px;
+	width: 200px;
 	transition: 0.3s ease;
 }
 
 
 
-.e4 {
+/* .e4 {
 	left: 350px;
 	width: 200px;
 	top: -50px; 
-}
+} */
 
 .e4:hover {
-	width: 400px;
+	width: 200px;
 	transition: 0.3s ease;
 }
 
-.e5 {
+/* .e5 {
 	left: 520px;
 	width: 250px;
 	top: -50px;
-}
+} */
 
 .e5:hover {
-	width: 400px;
+	width: 200px;
 	transition: 0.3s ease;
 }
 
@@ -318,9 +322,9 @@ body{
 	top: 50px;
   }
 
-  .slider-container {
+  /* .slider-container {
     position: relative;
-}
+} */
 
 .arrow {
     position: absolute;
@@ -346,10 +350,150 @@ body{
 	/* height: 200px; */
 	background-color: white;
 	margin: auto;
-	width: 50em;
+	width: 80%;
 	padding: 50px;
 }
 
 b {
 	font-weight: bold;
+}
+
+/* .container {
+    display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+} */
+
+/* .photo-gallery {
+	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 50% 50%;
+    grid-gap: 10px;
+} */
+
+/* .column {
+	display:flex;
+	flex-direction: column;
+	gap: 20px;
+
+} */
+
+/* .photo img {
+	width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+} */
+
+/* .container {
+	max-width: 45%;
+	margin: auto;
+	padding: 40px 0;
+} */
+
+.photo {
+	width: 100px;
+	height: 100px;
+}
+
+.column {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.photo img {
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	object-fit: cover;
+}
+
+.container-2 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	/* grid-template-rows: repeat(1, 1fr); */
+}
+
+
+
+
+/* * {box-sizing:border-box} */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 300px;
+  position: relative;
+  margin-left: auto;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+/* .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} */
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
 }

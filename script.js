@@ -172,19 +172,64 @@ function showHideElement(idToShow, idToHide) {
 }
 
 
-const images = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg", "image6.jpg", "image7.jpg"];
-let currentIndex = 0;
+// const images = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg", "image6.jpg", "image7.jpg"];
+// let currentIndex = 0;
 
-function changeImage(direction) {
-    currentIndex += direction;
+// function changeImage(direction) {
+//     currentIndex += direction;
 
-    // Handle wrap-around
-    if (currentIndex < 0) {
-        currentIndex = images.length - 1;
-    } else if (currentIndex >= images.length) {
-        currentIndex = 0;
-    }
+//     // Handle wrap-around
+//     if (currentIndex < 0) {
+//         currentIndex = images.length - 1;
+//     } else if (currentIndex >= images.length) {
+//         currentIndex = 0;
+//     }
 
-    const sliderImage = document.getElementById("sliderImage");
-    sliderImage.src = images[currentIndex];
+//     const sliderImage = document.getElementById("sliderImage");
+//     sliderImage.src = images[currentIndex];
+// }
+
+// let currentImageSlider = 0;
+
+// function changeImage() {
+// 	let image = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg", "image6.jpg", "image7.jpg"];
+
+// 	currentImageSlider++;
+// 	document.getElementById("myImg").src = image[currentImageSlider];
+// }
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+console.log(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Your other code
+    showSlides(slideIndex);
+});
