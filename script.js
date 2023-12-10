@@ -143,6 +143,10 @@ const $mainbox = document.querySelector(".mainbox");
 
 // console.log(showHideDiv);
 
+
+
+// arrow key function
+
 document.onkeydown = checkKey;
 
 function checkKey(e) {
@@ -197,6 +201,8 @@ function showHideElement(idToShow, idToHide) {
 // 	currentImageSlider++;
 // 	document.getElementById("myImg").src = image[currentImageSlider];
 // }
+
+// image slider function
 
 let slideIndex = 1;
 showSlides(slideIndex);

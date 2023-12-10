@@ -1,5 +1,6 @@
-/* FEEL FREE TO GO TO fonts.google.com TO CHOOSE YOUR OWN FONT */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+/* mainbox code */
 
 :root {
   --text-color: #000000;
@@ -172,6 +173,7 @@ body{
     transition: opacity 0.5s ease-in-out;
 }
 
+/* individual pictures code */
 
 .butler {
 	top: 80px;
@@ -398,6 +400,8 @@ b {
 	height: 100px;
 }
 
+/* grid code */
+
 .column {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -417,6 +421,8 @@ b {
 	/* grid-template-rows: repeat(1, 1fr); */
 }
 
+
+/* image slider code */
 
 
 
@@ -496,4 +502,30 @@ b {
 
 .active, .dot:hover {
   background-color: #717171;
+}
+
+@media(max-width:750px) {
+	.spritebox img{
+		max-width: 80%;
+	}
+	.photo{
+		width: 80px;
+	}
+
+	body{
+		font-size: 19px;
+	}
+}
+
+@media(max-width:500px) {
+	.spritebox img{
+		max-width: 50%;
+	}
+	.photo{
+		width: 50px;
+	}
+
+	body{
+		font-size: 15px;
+	}
 }
